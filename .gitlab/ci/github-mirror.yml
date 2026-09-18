@@ -1,6 +1,6 @@
 github_insiders_push:
   stage: mirror
-  image: alpine:latest@sha256:865b95f46d98cf867a156fe4a135ad3fe50d2056aa3f25ed31662dff6da4eb62
+  image: alpine:latest@sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6
   variables:
     GIT_STRATEGY: clone
     GIT_DEPTH: 0 # Full clone to ensure all git objects are available
