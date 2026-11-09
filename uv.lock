@@ -168,7 +168,7 @@ wheels = [
 
 [[package]]
 name = "asteval"
-version = "1.0.8"
+version = "1.0.10"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform == 'win32'",
@@ -182,9 +182,9 @@ resolution-markers = [
     "python_full_version == '3.11.*' and sys_platform != 'emscripten' and sys_platform != 'win32'",
     "python_full_version == '3.10.*'",
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8f/d4/c19cac7814b8ec273804ebee3c5d3c69ee2084cb75f25297cb4177a6aa85/asteval-1.0.8.tar.gz", hash = "sha256:7175134331726df0e1569f4ab5fa59266192cf1b365db0ff463c978842075cbb", size = 53989, upload-time = "2025-12-17T20:56:08.383Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/9a/e10e062c83de2219c5f9ef9d684dac39323c052de140e257afd0f60f8ca7/asteval-1.0.10.tar.gz", hash = "sha256:46a4ed13cc2e4a29a21418f89dedd57db70d98eb96db0fb4c441d4edb2f5afed", size = 59581, upload-time = "2026-08-21T21:07:06.6Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/99/31/6cf181011dc738c33bf6ba7aea2e8e1d3c1f71b7dab1942f3054f66f6202/asteval-1.0.8-py3-none-any.whl", hash = "sha256:6c64385c6ff859a474953c124987c7ee8354d781c76509b2c598741c4d1d28e9", size = 22968, upload-time = "2025-12-17T20:56:07.457Z" },
+    { url = "https://files.pythonhosted.org/packages/92/16/e78d6e60ecd1b3cf446fad45985ad6cda22f46ad2cffabb644d77b317bc4/asteval-1.0.10-py3-none-any.whl", hash = "sha256:8d805fa8084aa12204715f799430f0012a0db38b42e997f9f11a9637ad59855f", size = 23466, upload-time = "2026-08-21T21:07:05.678Z" },
 ]
 
 [[package]]
@@ -3230,7 +3230,7 @@ version = "1.3.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asteval", version = "1.0.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "asteval", version = "1.0.8", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "asteval", version = "1.0.10", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
     { name = "dill" },
     { name = "numpy", version = "2.0.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version == '3.10.*'" },
