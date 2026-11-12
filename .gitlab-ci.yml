@@ -1,4 +1,4 @@
-image: python:3.13@sha256:52ed248783130e635b76b2eb8430626b2cdb6c5a5ab037193ece2d019632be0f
+image: python:3.15@sha256:df3f05ff4d74833f52146edd195c8f7913581b57796a820fb7e373457ace9bad
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
